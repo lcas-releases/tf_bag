@@ -1,0 +1,20 @@
+ros-kinetic-tf-bag (0.1.1-0xenial) xenial; urgency=high
+
+  * Changes for proper install
+  * Added install option
+  * Update package.xml
+  * Corrected package name in docs
+    Fixes #3 <https://github.com/LCAS/tf_bag/issues/3>
+  * Merge pull request #2 <https://github.com/LCAS/tf_bag/issues/2> from gondsm/master
+    Make tf_bag compatible with bags recorded with "tf" and "/tf" as topic names
+    Fixes #1 <https://github.com/LCAS/tf_bag/issues/1>
+  * Make tf_bag compatible with bags recorded with "tf" and "/tf" as topic names.
+  * Fix double use of iterator in averageTransforms
+  * Fixed README readability
+  * Added LICENSE and improved .gitignore
+  * Initial commit with working version and README
+  * Contributors: Gonçalo S. Martins, Manue, Manuel Fernandez-Carmona, Marco Esposito
+
+ -- Manuel Fernandez-Carmona <mfernandezcarmona@lincoln.ac.uk>  Tue, 05 Feb 2019 00:00:00 -0000
+
+
